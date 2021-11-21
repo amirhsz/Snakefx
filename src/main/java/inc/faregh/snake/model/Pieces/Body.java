@@ -1,10 +1,11 @@
+package inc.faregh.snake.model.Pieces;
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package inc.faregh.snake.model.Pieces;
 
+import inc.faregh.snake.model.Strategy.Strategy;
 import java.awt.Point;
 
 /**
@@ -13,8 +14,10 @@ import java.awt.Point;
  */
 public class Body extends Piece {
 
-    public Body(Point pos, String shapename) {
-        super(pos, shapename);
+    public Body(Point pos, Strategy s) {
+        super(pos, s);
+        this.shapename = s.getBody();
+        
     }
 
     public void move(Point p){
