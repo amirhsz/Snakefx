@@ -1,0 +1,7 @@
+inc\faregh\snake\model\Pieces\Table.class
+inc\faregh\snake\model\Pieces\Piece.class
+inc\faregh\snake\model\Strategy\Strategy.class
+inc\faregh\snake\model\Strategy\UsualMode.class
+inc\faregh\snake\model\Pieces\Fruit.class
+inc\faregh\snake\model\Pieces\Body.class
+inc\faregh\snake\model\Pieces\Snake.class
